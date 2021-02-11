@@ -11,5 +11,4 @@ public class Animal {
     public void gotoVet(){
         System.out.println(String.format("%s, don't worry", name));
     }
-
 }
