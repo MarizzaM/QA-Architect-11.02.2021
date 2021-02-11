@@ -14,6 +14,10 @@ public class Main {
         callCleanRoom(s);
         callCleanRoom(c);
         callCleanRoom(p);
+        
+        goToVIP(vip);
+        goToVIP(c);
+        goToVIP(p);
 
         Room[]rooms = new Room[5];
         rooms[0] = new Room();
@@ -24,5 +28,9 @@ public class Main {
     }
     public static void callCleanRoom(Room r){
             r.cleanRoom();
+    }
+    
+    public static void goToVIP(VIP r){
+        r.cleanRoom();
     }
 }
