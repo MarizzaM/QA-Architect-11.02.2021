@@ -36,5 +36,4 @@ public class Main {
     public static void guardTheHouse(Dog dog){
         dog.guardHouse();
     }
-
 }
