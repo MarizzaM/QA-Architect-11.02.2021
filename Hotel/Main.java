@@ -31,6 +31,6 @@ public class Main {
     }
     
     public static void goToVIP(VIP r){
-        r.cleanRoom();
+        r.goParty();
     }
 }
